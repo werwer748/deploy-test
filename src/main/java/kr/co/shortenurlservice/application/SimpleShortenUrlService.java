@@ -80,7 +80,7 @@ public class SimpleShortenUrlService {
         }
 
 
-        // CI 실패 테스트를 위해서 변경
+        // CI 실패 테스트를 위해서 변경2
 //        throw new LackOfShortenUrlKeyException();
         throw new RuntimeException();
     }
