@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2caa6f25-e711-4589-8602-06ebe440578d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/application/SimpleShortenUrlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/co/shortenurlservice/application/SimpleShortenUrlService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kr/co/shortenurlservice/application/SimpleShortenUrlService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kr/co/shortenurlservice/application/SimpleShortenUrlService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +73,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.SimpleShortenUrlServiceUnitTest.throwLackOfShortenUrlKeyExceptionTest.executor": "Run",
     "Maven.shortenurlservice [clean].executor": "Run",
     "Maven.shortenurlservice [test].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -154,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695288811096</updated>
       <workItem from="1718097287432" duration="246000" />
-      <workItem from="1718115871707" duration="315000" />
+      <workItem from="1718115871707" duration="1349000" />
     </task>
     <servers />
   </component>
