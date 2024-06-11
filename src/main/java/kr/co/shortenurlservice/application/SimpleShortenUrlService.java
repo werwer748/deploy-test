@@ -78,16 +78,8 @@ public class SimpleShortenUrlService {
             if(null == shortenUrl)
                 return shortenUrlKey;
         }
-<<<<<<< Updated upstream
 
-
-        // CI 실패 테스트를 위해서 변경2
-//        throw new LackOfShortenUrlKeyException();
-        throw new RuntimeException();
-=======
-        
         throw new LackOfShortenUrlKeyException();
->>>>>>> Stashed changes
     }
 
 }
