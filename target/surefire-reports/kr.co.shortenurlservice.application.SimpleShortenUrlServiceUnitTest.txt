@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: kr.co.shortenurlservice.application.SimpleShortenUrlServiceUnitTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.049 s <<< FAILURE! - in kr.co.shortenurlservice.application.SimpleShortenUrlServiceUnitTest
+throwLackOfShortenUrlKeyExceptionTest  Time elapsed: 0.049 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <kr.co.shortenurlservice.domain.LackOfShortenUrlKeyException> but was: <java.lang.RuntimeException>
+	at kr.co.shortenurlservice.application.SimpleShortenUrlServiceUnitTest.throwLackOfShortenUrlKeyExceptionTest(SimpleShortenUrlServiceUnitTest.java:33)
+Caused by: java.lang.RuntimeException
+	at kr.co.shortenurlservice.application.SimpleShortenUrlServiceUnitTest.lambda$throwLackOfShortenUrlKeyExceptionTest$0(SimpleShortenUrlServiceUnitTest.java:34)
+	at kr.co.shortenurlservice.application.SimpleShortenUrlServiceUnitTest.throwLackOfShortenUrlKeyExceptionTest(SimpleShortenUrlServiceUnitTest.java:33)
+

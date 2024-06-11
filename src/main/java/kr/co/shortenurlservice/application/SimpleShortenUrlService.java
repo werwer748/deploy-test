@@ -79,7 +79,10 @@ public class SimpleShortenUrlService {
                 return shortenUrlKey;
         }
 
-        throw new LackOfShortenUrlKeyException();
+
+        // CI 실패 테스트를 위해서 변경
+//        throw new LackOfShortenUrlKeyException();
+        throw new RuntimeException();
     }
 
 }
